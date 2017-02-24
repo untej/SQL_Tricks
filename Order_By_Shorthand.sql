@@ -16,7 +16,7 @@ t1.column1
 , t1.column2
 , t1.column3
 /* HAVING statement is optional. */
-/* GROUP BY statement is optional.
+/* ORDER BY statement is optional.
 If used, it may refer to columns by the order they appear in the select statement.
 In this example, the query would return order by t1.column1, t1.column3, and finally t1.column2. */
 ORDER BY
